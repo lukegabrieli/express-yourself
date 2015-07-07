@@ -1,1 +1,10 @@
-h1 Hello
+extends ./layout.jade
+
+block content
+  main
+    ul
+      -
+        links = [['/ron', 'Ron Swanson'], ['/dog', 'Dog Slap'], ['/banana', 'Banana Dance'], ['/bees', 'Not The Bees']]
+      each item in links
+        a(href= item[0])
+          li= item[1]
