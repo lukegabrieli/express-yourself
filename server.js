@@ -37,6 +37,10 @@ exp.get('/bees', function(req, res){
   res.render('bees');
 });
 
+exp.get('/home', function(req, res){
+  res.render('home');
+});
+
 //Sets the path to the directory with static assets
 exp.use(express.static(__dirname + '/public'));
 
