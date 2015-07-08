@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+
+body {
+  text-align: center;
+  background-color: #9CBCB0;
+  font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+  color: #E0572E;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  color: white;
+  border: 1px solid white;
+  font-size: 1.4em;
+  border-radius: 50%;
+  transition: background-color .2s linear;
+}
+
+p a {
+  color: white;
+  border: 1px solid white;
+  font-size: 1.4em;
+  border-radius: 50%;
+  transition: background-color .2s linear;
+}
